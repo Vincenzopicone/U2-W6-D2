@@ -9,7 +9,7 @@
   </head>
   <body>
     <!-- INIZIO NAV -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-between mb-5">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-between flex-wrap  mb-5">
         <section class="d-flex justify-content-center ">
             <div class="container-fluid w-auto d-flex">
                 <a class="navbar-brand" href="#">
@@ -17,7 +17,7 @@
                   Vins Travel
                 </a>
               </div>
-            <div class="container d-flex justify-content-start">
+            <div class="container d-flex flex-wrap">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -27,22 +27,22 @@
                       <a class="nav-link" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Saldi</a>
+                      <a class="nav-link" href="#saldi">Saldi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Welcome Summer</a>
+                        <a class="nav-link" href="#welcomeSummer">Welcome Summer</a>
                       </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Last Minute</a>
+                      <a class="nav-link" href="#lastMinute">Last Minute</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Recensioni</a>
+                      <a class="nav-link" href="#recensioni">Recensioni</a>
                     </li>
                   </ul>
                 </div>
             </div> 
         </section>
-        <section>
+        <section class="d-none d-sm-none d-md-none d-lg-block">
             <div class="container-fluid">
                 <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Cerca posti da sogno" aria-label="Search">
@@ -68,10 +68,10 @@
     <!-- INIZIO MAIN -->
 
     <main>
-        <section class="m-5">
+        <section class="m-5 p-3">
             <h2> Saldi </h2>
-            <article class="d-flex justify-content-between">
-                <div class="card m-3 border border-info" >
+            <article class="d-flex flex-wrap flex-lg-nowrap justify-content-center">
+                <div class="card m-3 border border-info col-sm-5 col-md-3 col-lg-2" >
                     <img src="./Città.jpg" class="card-img-top" alt="Città.jpg">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -79,7 +79,7 @@
                       <a href="#" class="btn btn-primary">Prenota </a>
                     </div>
                 </div>
-                <div class="card m-3 border border-info" >
+                <div class="card m-3 border border-info col-sm-5 col-md-3 col-lg-2" >
                     <img src="./Città.jpg" class="card-img-top" alt="Città.jpg">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -87,7 +87,7 @@
                       <a href="#" class="btn btn-primary">Prenota </a>
                     </div>
                 </div>
-                <div class="card m-3 border border-info" >
+                <div class="card m-3 border border-info col-sm-5 col-md-3 col-lg-2" >
                     <img src="./Città.jpg" class="card-img-top" alt="Città.jpg">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -95,7 +95,7 @@
                       <a href="#" class="btn btn-primary">Prenota </a>
                     </div>
                 </div>
-                <div class="card m-3 border border-info" >
+                <div class="card m-3 border border-info col-sm-5 col-lg-2 d-md-none d-lg-block " >
                     <img src="./Città.jpg" class="card-img-top" alt="Città.jpg">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -108,8 +108,8 @@
         </section>
         <section class="m-5">
             <h2>Welcome Summer</h2>
-            <article class="d-flex flex-wrap ">
-                <div class="card m-3 border-0 shadow p-3 mb-5 bg-body-tertiary rounded col-3" >
+            <article class="d-flex flex-wrap justify-content-center ">
+                <div class="card m-3 border-0 shadow p-3 mb-5 bg-body-tertiary rounded col-lg-3 col-sm-5" >
                     <img src="./Città.jpg" class="card-img-top" alt="Città.jpg">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -117,7 +117,7 @@
                       <a href="#" class="btn btn-primary">Prenota </a>
                     </div>
                 </div>
-                <div class="card m-3 border-0 shadow p-3 mb-5 bg-body-tertiary rounded col-3" >
+                <div class="card m-3 border-0 shadow p-3 mb-5 bg-body-tertiary rounded col-lg-3 col-sm-5" >
                     <img src="./Città.jpg" class="card-img-top" alt="Città.jpg">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -125,7 +125,7 @@
                       <a href="#" class="btn btn-primary">Prenota </a>
                     </div>
                 </div>
-                <div class="card m-3 border-0 shadow p-3 mb-5 bg-body-tertiary rounded col-3" >
+                <div class="card m-3 border-0 shadow p-3 mb-5 bg-body-tertiary rounded col-lg-3 col-sm-5" >
                     <img src="./Città.jpg" class="card-img-top" alt="Città.jpg">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -133,7 +133,7 @@
                       <a href="#" class="btn btn-primary">Prenota </a>
                     </div>
                 </div>
-                <div class="card m-3 border-0 shadow p-3 mb-5 bg-body-tertiary rounded col-3" >
+                <div class="card m-3 border-0 shadow p-3 mb-5 bg-body-tertiary rounded col-lg-3 col-sm-5" >
                     <img src="./Città.jpg" class="card-img-top" alt="Città.jpg">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -141,7 +141,7 @@
                       <a href="#" class="btn btn-primary">Prenota </a>
                     </div>
                 </div>
-                <div class="card m-3 border-0 shadow p-3 mb-5 bg-body-tertiary rounded col-3" >
+                <div class="card m-3 border-0 shadow p-3 mb-5 bg-body-tertiary rounded col-lg-3 col-sm-5" >
                     <img src="./Città.jpg" class="card-img-top" alt="Città.jpg">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -149,7 +149,7 @@
                       <a href="#" class="btn btn-primary">Prenota </a>
                     </div>
                 </div>
-                <div class="card m-3 border-0 shadow p-3 mb-5 bg-body-tertiary rounded col-3" >
+                <div class="card m-3 border-0 shadow p-3 mb-5 bg-body-tertiary rounded col-lg-3 col-sm-5" >
                     <img src="./Città.jpg" class="card-img-top" alt="Città.jpg">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -167,64 +167,72 @@
                     <img class="img-fluid border-0 shadow mb-5 bg-body-tertiary rounded" src="./Città.jpg" alt="città">
                 </div>
                 <div class="col-5 p-4">
-                    <h2>New York</h2>
-                    <h5> 24/12/2023 - 06/01/2024 </h5>
-                    <h4> Ville a partire da 6000$, non fartele sfuggire. </h4>
-                    <button type="button" class="btn btn-dark">Dark</button>
+                    <h2 >New York</h2>
+                    <h5 > 24/12/2023 - 06/01/2024 </h5>
+                    <h4 > Ville a partire da 6000$, non fartele sfuggire. </h4>
+                    <button type="button" class="btn btn-dark mt-4">Dark</button>
                 </div>               
             </article>
             
         </section>
         <section class="m-5">
             <h2>Last minute</h2>
-            <article class="d-flex justify-content-evenly">
-                <div class="m-2">
+            <article class="d-flex justify-content-center flex-wrap flex-lg-nowrap">
+                <div class="m-1 col-sm-5 col-md-3 col-lg-2">
                     <img class="rounded img-fluid" src="./Città.jpg" class="card-img-top" alt="Città.jpg">  
                 </div> 
-                <div class="m-2">
+                <div class="m-1 col-sm-5 col-md-3 col-lg-2">
                     <img class="rounded img-fluid" src="./Città.jpg" class="card-img-top" alt="Città.jpg">  
                 </div> 
-                <div class="m-2">
+                <div class="m-1 col-sm-5 col-md-3 col-lg-2">
                     <img class="rounded img-fluid" src="./Città.jpg" class="card-img-top" alt="Città.jpg">  
                 </div> 
-                <div class="m-2">
+                <div class="m-1 col-sm-5 col-md-3 col-lg-2">
                     <img class="rounded img-fluid" src="./Città.jpg" class="card-img-top" alt="Città.jpg">  
                 </div> 
-                <div class="m-2">
+                <div class="m-1 col-sm-5 col-md-3 col-lg-2">
                     <img class="rounded img-fluid" src="./Città.jpg" class="card-img-top" alt="Città.jpg">  
                 </div> 
-                <div class="m-2">
+                <div class="m-1 col-sm-5 col-md-3 col-lg-2">
                     <img class="rounded img-fluid" src="./Città.jpg" class="card-img-top" alt="Città.jpg">  
                 </div>                
             </article>
             
         </section>
-        <section class="m-5 text-center">
-            <h2>Dicono di noi</h2>
-            <div class="container d-flex flex-column">
+        <section class="m-5">
+            <h2 class="text-center">Dicono di noi</h2>
+            <div class="d-flex flex-column">
                  <div class="d-flex mt-2 col-12">
-                    <i class="bi bi-person-circle fs-1"></i>
-                    <div class="p-1 m-1"> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                         Sed temporibus deleniti pariatur repellat consequatur asperiores, iusto expedita vero facilis quasi? 
-                         Laborum impedit est debitis placeat commodi quam distinctio reiciendis dolorum. Laborum impedit est debitis placeat commodi quam distinctio reiciendis dolorum. 
+                    <i class="bi bi-person-circle fs-1 d-flex justify-content-center align-items-center"></i>
+                    <div class="p-3 m-1 d-flex flex-column align-items-start">
+                        <h5> UTENTE </h5>                        
+                        <p class="p-0 m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                           Sed temporibus deleniti pariatur repellat consequatur asperiores, iusto expedita vero facilis quasi? 
+                           Laborum impedit est debitis placeat commodi quam distinctio reiciendis dolorum. Laborum impedit est debitis placeat commodi quam distinctio reiciendis dolorum.
+                           </p>
+                        </div>  
                     </div>     
-                 </div>
                  <div class="d-flex mt-2 col-12">
-                    <i class="bi bi-person-circle fs-1"></i>
-                    <div class="p-1 m-1"> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                         Sed temporibus deleniti pariatur repellat consequatur asperiores, iusto expedita vero facilis quasi? 
-                         Laborum impedit est debitis placeat commodi quam distinctio reiciendis dolorum. Laborum impedit est debitis placeat commodi quam distinctio reiciendis dolorum. 
+                    <i class="bi bi-person-circle fs-1 d-flex justify-content-center align-items-center"></i>
+                    <div class="p-3 m-1 d-flex flex-column align-items-start">
+                        <h5> UTENTE </h5>                        
+                        <p class="p-0 m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                           Sed temporibus deleniti pariatur repellat consequatur asperiores, iusto expedita vero facilis quasi? 
+                           Laborum impedit est debitis placeat commodi quam distinctio reiciendis dolorum. Laborum impedit est debitis placeat commodi quam distinctio reiciendis dolorum.
+                           </p>
+                        </div>  
                     </div>     
-                 </div>
                  <div class="d-flex mt-2 col-12">
-                    <i class="bi bi-person-circle fs-1"></i>
-                    <div class="p-1 m-1"> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                         Sed temporibus deleniti pariatur repellat consequatur asperiores, iusto expedita vero facilis quasi? 
-                         Laborum impedit est debitis placeat commodi quam distinctio reiciendis dolorum. Laborum impedit est debitis placeat commodi quam distinctio reiciendis dolorum. 
+                    <i class="bi bi-person-circle fs-1 d-flex justify-content-center align-items-center"></i>
+                    <div class="p-3 m-1 d-flex flex-column align-items-start">
+                        <h5> UTENTE </h5>                        
+                        <p class="p-0 m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                           Sed temporibus deleniti pariatur repellat consequatur asperiores, iusto expedita vero facilis quasi? 
+                           Laborum impedit est debitis placeat commodi quam distinctio reiciendis dolorum. Laborum impedit est debitis placeat commodi quam distinctio reiciendis dolorum.
+                           </p>
+                        </div>  
                     </div>     
-                 </div>
-            </div>
-            
+                 </div>           
         </section>
     </main>
     <!-- FINE MAIN -->
